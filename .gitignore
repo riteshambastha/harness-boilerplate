@@ -1,0 +1,19 @@
+# secrets
+.env
+
+# run traces, feedback, eval results
+runs/
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# os / editors
+.DS_Store
+.idea/
+.vscode/
