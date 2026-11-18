@@ -1,4 +1,4 @@
-"""harness-starter: a minimal harness around an LLM.
+"""harness-boilerplate: a minimal harness around an LLM.
 
 The five layers, each in its own module:
   model.py    - provider-agnostic model interface

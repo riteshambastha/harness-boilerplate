@@ -34,7 +34,7 @@ def web_fetch(
     """Fetch a web page and return its visible text (HTML tags stripped)."""
     if not url.startswith(("http://", "https://")):
         raise ValueError("only http:// and https:// URLs are allowed")
-    request = urllib.request.Request(url, headers={"User-Agent": "harness-starter/0.1"})
+    request = urllib.request.Request(url, headers={"User-Agent": "harness-boilerplate/0.1"})
     tls = truststore.SSLContext(ssl.PROTOCOL_TLS_CLIENT)
     with urllib.request.urlopen(request, timeout=10, context=tls) as resp:
         body = resp.read(2_000_000).decode(resp.headers.get_content_charset() or "utf-8", "replace")

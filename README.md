@@ -1,6 +1,6 @@
-# harness-starter
+# harness-boilerplate
 
-**It's not just the model.** A model call turns text into text. What turns that into a working AI application is everything *around* the model: a loop that lets it act, tools that let it touch the world safely, context management that decides what it sees, evals that tell you whether it's any good, and traces plus feedback that tell you what actually happened. That surrounding code is the *harness*. This repo is a small, readable one (about 800 lines of core code including docstrings, no agent frameworks) that you can understand in an afternoon and grow into your own.
+A model call turns text into text. Whether that becomes something people can rely on depends on the code you write around it: the loop that decides when the agent is done, the tools it can and can't touch, what goes into the context window and what gets dropped, the traces that show why a run went wrong, and the evals that tell you whether last week's prompt change actually helped. That code is the harness. In most projects I've seen, it gets built late, after the demo works and the problems start. This is a small one you can read in an afternoon: about 800 lines of Python, no agent frameworks, and it runs offline with a fake model, so you can watch the whole loop before you pay for a single API call.
 
 ## The five layers
 

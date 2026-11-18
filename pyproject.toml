@@ -1,5 +1,5 @@
 [project]
-name = "harness-starter"
+name = "harness-boilerplate"
 version = "0.1.0"
 description = "A small, opinionated harness for building AI applications: it's not just the model."
 readme = "README.md"

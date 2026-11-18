@@ -3,6 +3,6 @@
 {"id": "calc-power", "question": "What is 2 to the power of 20?", "expected": "1048576"}
 {"id": "knowledge-capital", "question": "What is the capital city of Australia?", "expected": "Canberra"}
 {"id": "count-letters", "question": "How many letters are in the word 'harness'?", "expected": "7"}
-{"id": "file-project-name", "question": "Read pyproject.toml and tell me the project's name.", "expected": "harness-starter"}
+{"id": "file-project-name", "question": "Read pyproject.toml and tell me the project's name.", "expected": "harness-boilerplate"}
 {"id": "file-license", "question": "Read the LICENSE file. Which license is this project under? Answer with its short name, e.g. 'Apache'.", "expected": "MIT"}
 {"id": "web-heading", "question": "Fetch https://example.com and tell me the main heading on the page.", "expected": "Example Domain"}
